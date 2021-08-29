@@ -28,9 +28,14 @@ void solution(double a,double b,double c){
 		}
 		else{
 	quadratic_equation(a,b,c);
+			if(x1==x2){
+		printf("%.6lf",x1);
+			}
+			else{
 		printf("%.6lf",x1);
 		printf(" ");
 		printf("%.6lf",x2);
+			}
 	}
 }
 }
