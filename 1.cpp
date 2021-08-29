@@ -6,7 +6,7 @@ double linear_root(double b,double c){
 	return x;
 }
 double first_quadratic_root(double a,double b,double c){
-	double x1 =0,D = 0;
+	double x1 = 0,D = 0;
 	D = b*b-4*a*c;
 	x1 = (b*(-1)+sqrt(D))/(2*a);
 	return x1;
