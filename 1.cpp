@@ -6,13 +6,13 @@ double linear_root(double b,double c){
 	return x;
 }
 double first_quadratic_root(double a,double b,double c){
-	double x1 = 0,D = 0;
+	double x1 = 0, D = 0;
 	D = b*b-4*a*c;
 	x1 = (b*(-1)+sqrt(D))/(2*a);
 	return x1;
 }
 double second_quadratic_root(double a,double b,double c){
-	double x2 = 0,D = 0;
+	double x2 = 0, D = 0;
 	D = b*b-4*a*c;
 	x2 = (b*(-1)-sqrt(D))/(2*a);
 	return x2;
@@ -60,7 +60,7 @@ void output(int s,double a,double b,double c){
 	}	
 }
 int main () {
-	double a = 0,b = 0,c = 0;
+	double a = 0, b = 0, c = 0;
 	scanf("%lf",&a);
 	scanf("%lf",&b);
 	scanf("%lf",&c);
