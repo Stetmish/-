@@ -60,10 +60,10 @@ void output(int s,double a,double b,double c){
 	}	
 }
 int main () {
-double a = 0,b = 0,c = 0;
-scanf("%lf",&a);
-scanf("%lf",&b);
-scanf("%lf",&c);
-output(solution(a,b,c),a,b,c);
-return 0;
+	double a = 0,b = 0,c = 0;
+	scanf("%lf",&a);
+	scanf("%lf",&b);
+	scanf("%lf",&c);
+	output(solution(a,b,c),a,b,c);
+	return 0;
 }
